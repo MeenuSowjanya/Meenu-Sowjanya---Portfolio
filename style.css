@@ -277,7 +277,7 @@ section .title::after{
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
@@ -304,8 +304,15 @@ section .title::after{
 }
 
 .services .serv-content .card a{
-    color: #2956B2;
+    color: #f1f1f1;
+    font-weight: 600;
     text-decoration: underline;
+    cursor: default;
+}
+
+.services .serv-content .card a:hover{
+    color: #1b1b1b;
+    cursor: pointer;
 }
 
 /* skills section styling */
@@ -394,7 +401,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "Memories";
 }
 .teams .carousel .card{
     background: #222;
@@ -457,7 +464,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "Get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
