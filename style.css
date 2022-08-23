@@ -401,7 +401,8 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "Memories";
+    content: "300 days Walkthrough";
+    font-size: medium;
 }
 .teams .carousel .card{
     background: #222;
@@ -421,20 +422,23 @@ section .title::after{
     justify-content: center;
     transition: all 0.3s ease;
 }
+.box p{
+    font-size: x-small;
+}
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
-    font-size: 25px;
+    font-size: medium;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 .teams .carousel .card img{
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid crimson;
+    border-radius: 4%;
+    /* border: 5px solid crimson; */
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
